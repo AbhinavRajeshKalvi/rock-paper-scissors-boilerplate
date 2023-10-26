@@ -77,11 +77,9 @@ function gameEnd(){
     }
     if (youScore==5){
         wonText.textContent = "You won the game"
-        body.style.overflowY = "scroll"
         show.style.visibility = "visible"
     }else if (compScore==5){
         wonText.textContent = "Comp won the game"
-        body.style.overflowY = "scroll"
         show.style.visibility = "visible"
     }
     playAgain.onclick = ()=>{
